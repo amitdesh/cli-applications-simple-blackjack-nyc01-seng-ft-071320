@@ -36,6 +36,10 @@ end
 def hit?(initial_hand_total)
   prompt_user
   input = get_user_input
+  loop do
+    prompt_user
+    input = get_user_input
+    
   while not input == "h" || input == "s"
     invalid_command
     prompt_user
