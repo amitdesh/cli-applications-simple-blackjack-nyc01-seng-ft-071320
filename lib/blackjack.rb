@@ -36,7 +36,7 @@ end
 def hit?(initial_hand_total)
   prompt_user
   input = get_user_input
-  if (input == "h" || inputs == "s") == false
+  if not (input == "h" && inputs == "s")
     invalid_command
     prompt_user
     input = get_user_input
