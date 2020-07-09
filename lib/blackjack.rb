@@ -36,11 +36,6 @@ end
 def hit?(initial_hand_total)
   prompt_user
   input = get_user_input
-  loop do
-    prompt_user
-    input = get_user_input
-    break if input == "h" || input == "s"
-  end
   if input == "h"
     new_card = deal_card
     initial_hand_total += new_card
