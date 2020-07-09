@@ -34,7 +34,6 @@ def initial_round
 end
 
 def hit?(initial_hand_total)
-  total = initial_round
   prompt_user
   input = get_user_input
   if input != "h" || input != "s"
