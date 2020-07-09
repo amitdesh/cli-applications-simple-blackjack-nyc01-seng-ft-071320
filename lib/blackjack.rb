@@ -49,7 +49,7 @@ def hit?(initial_hand_total)
 end
 
 def invalid_command
-  puts "Please enter a valid command."
+  puts "Please enter a valid command"
 end
 
 #####################################################
