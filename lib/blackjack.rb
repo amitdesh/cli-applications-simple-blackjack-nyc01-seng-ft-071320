@@ -45,8 +45,6 @@ def hit?(initial_hand_total)
     new_card = deal_card
     initial_hand_total += new_card
   end
-
-  end
   return initial_hand_total
 end
 
