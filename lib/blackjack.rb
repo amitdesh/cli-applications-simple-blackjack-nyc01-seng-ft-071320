@@ -40,7 +40,7 @@ def hit?(initial_hand_total)
   #while input != "h" || input != "s" do 
     #prompt_user
     #input = get_user_input
-  end
+  #end
   if input == "h"
     new_card = deal_card
     initial_hand_total += new_card
