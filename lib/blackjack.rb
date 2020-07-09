@@ -41,11 +41,10 @@ def hit?(initial_hand_total)
     initial_hand_total += new_card
   elsif input == "s"
     initial_hand_total
-      if not (input == "h" && inputs == "s")
+   elsif not (input == "h" && inputs == "s")
     invalid_command
     prompt_user
     input = get_user_input
-  end
   end
   return initial_hand_total
 end
